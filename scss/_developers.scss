@@ -1,0 +1,62 @@
+.developers {
+
+    &__card {
+        width: 23%;
+    }
+
+    &__title {
+        font-size: 47px;
+        line-height: 24px;
+        color: #3e3e3e;
+        font-weight: 400;
+        font-family: "Open Sans";
+        text-align: center;
+        margin-bottom: 7%;
+    }
+
+    &__gallery {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__card-img {
+       width: 100%; 
+    }
+
+    &__card-title {
+        font-size: 22px;
+        line-height: 14px;
+        color: #3e3e3e;
+        font-weight: 400;
+        font-family: "Lato";
+        text-align: center;
+
+        margin-top: 15%;
+    }
+
+    &__card-subtitle {
+        font-size: 14px;
+        line-height: 22px;
+        color: #3e3e3e;
+        font-weight: 400;
+        font-family: "Lato";
+        text-align: center;
+
+        width: 80%;
+        margin: 0% 10% 10%;
+    }
+
+    &__social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+
+        width: 70%;
+        margin: 0% 15%;
+    }
+}
+
+.twitter {
+   fill: #0c84b7;
+}

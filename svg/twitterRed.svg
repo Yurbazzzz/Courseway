@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<title>Section - Footer</title>
+	<defs>
+		<image  width="48" height="48" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAAXNSR0IB2cksfwAAAadQTFRFuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfff/wKAAAAI10Uk5TABZXj7fY7fgTccv+/xmN9PWTGgR18wUlzs8qT/FQZvxpTinQdvvW8JR5B1nb3aCVFPalc+8wDzkDuXBSdAGH1cwzVdcXJjpEIKg97Fh/L4EeW+INCkt9omwx5qxJtj4oYfKR+Yl8HYtD/Y4V4FyxEgu+ybVUR3IQI6f3ViRou+TNwdNRBnp7Gxy42e76cZtitAAAAlpJREFUeJyVlvlD0zAUxx/rRrc10znHQOUYTHHogA10KjqoOhRl3oCC51DU4X2LB154cPzRpqtpXtK0su9PfcnnNa8vL3kFkNUU0IKhZl1vDgW1QJNrWlI4EjUIkhGNhH3w2JatxKX4toQHvj3Z4sYttSRTKr61TY1b2rHTze9q9+bpIh0y39nlxxPS1SnyaX/cUhrz3f95f32Nbs73eKRH+o4exqcym+EJybDsJjfHE7Lb5hNeAe3pzewVg7L3POsAQhnF+2gV7dufI6R/gI0NWny+wMyhYcQfOGivX0weOnyEDRbydGTEYY7CMb5GwMlhabR/jI2OUNt0mOMAJ1iBnCw5DuXxUzpDovS88JeeprMTZwwe7T+dnXQQIwEVHva5+vT5oTh9vsD5izpHyCXQuHH5ik1MTc9cvcYdZnHuNAhyY+668qDcwA43IceN2Vu3VQ53sEMOqtxIq3CAeexQBWSMKSOCEHYg2IHMq/gJgb+LQ6LFEXM73BMcJvFHEzKwcF/mw2It53Ba6QruBR4IPE2rJtjDMv+wJjpouDSoaouPBL74WOTJEygb4oj+9Bnnn7+QeFp8qLwttY8WOR97KfHEBHSAes1X2dcIhzdzMk/eAjqi1YV3OPz3S4aLrx9RGHTsD0sf7Z0rffq8XHPh7FiJ18yXr8vfvhcUMHGumYYvMkj5tBKsNqeaW32bCVN1nGek0eu+8YbSeMsC6PBvij9k3r/tZhRtF2Dlp8d+FX6tqHiq34uqX4fsHw/cUj5iij8nZiTvg9dVrmira+sbG+trq1ql7Jr+C19bfEdmH+zaAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Section - Footer">
+		<use id="twitter копия" href="#img1" x="0" y="0" />
+	</g>
+</svg>

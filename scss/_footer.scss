@@ -1,0 +1,36 @@
+.footer {
+    padding: 1%;
+    background-color: #a99473;
+    margin-top: -1%;
+
+    font-size: 25px;
+    line-height: 43px;
+    color: #dfdfdf;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+
+    &__content {
+        margin-top: 4%;
+    }
+}
+
+.social {
+    width: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+   
+    &__position {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3%;
+    }
+
+    &__red {
+        fill: red;
+    }
+}
+
+span {
+    color: #b9271f;
+}

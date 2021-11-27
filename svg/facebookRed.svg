@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+	<title>Section - Footer</title>
+	<defs>
+		<image  width="48" height="48" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAAAXNSR0IB2cksfwAAARdQTFRFuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfuicfpogKTgAAAF10Uk5TABZXj7fY7fgTccv+/xmN9PWTGgR18wUlzs8qT/FQZvxpTinQr4Jun78bX3bRCpRJlRT293BD3+7MxZdYW0YzJx54GLbbivKlEQ3C+excF3Lgd8gmUQZ6e44cuNn6E8r2iQAAAbtJREFUeJyVlmdDwkAMhgNlUxXZDspyoYKAaFEUVBDrwokD+P+/w7aAlEvutO/H5Hl71zR3KQArh1NyuT1er8ftkpwOlGbk8weCskXBgN8nwBcWl2Sk0HKYg0eiMYwbikXjFJ9I0rihlVXMr63zeX2RFMsraREvy2llns+IcUMZK5/94/nmGtkZn+OUh3mP3JSP53E2tLG5pSjKtjWWn1Y3ivmdwji1OxfdGwfDeEP7RaAMsfE3L+EFDoA0yGUjVqki/jDCMVQreqyGF3Cb8NGxqrLNWNPjdWw44W1VDujnJYjDY8MpYQiGoUGE+Qb5DCQUO2+2TMNFs9m8ZJMSuJDhytJkqCJt6AgN12yyA12h4YZNdgHxcku7NeGipml3KEsYhFW6J7YkNDwQLy00dIiyCg1t4sMJDZLd1niEnt3m47c3ZajTB4hveKKPKNdgHlEo/99Q5lwzPMPkmsEXGc8wucggzo6S5xdDryyf/B1ECeEwmar7Njsndq97+wPF/sgCSImH4jvLi8dunhi7AP0P3CSmqp99itdV+KJ+HUrfHNxQxV+f/zmp+ysC3FSvIQ2G6mikDgdSo4fSPyTAcAGh99w/AAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Section - Footer">
+		<use id="facebook копия" href="#img1" x="0" y="0" />
+	</g>
+</svg>
