@@ -19,11 +19,24 @@
             <h1 class="nav__logo">COURSEWAY</h1>
             <div class="nav__link">
                  <a href="" class="link">головна</a>
-                 <a href="" class="link">курси</a>
-                 <a href="" class="link">блог</a>
-                 <a href="" class="link">про проект</a>
-                 <a href="" class="link">реєстрація</a>
+                 <a href="#course" class="link">курси</a>
+                 <a href="#blog" class="link">блог</a>
+                 <a href="#advantage" class="link">про проект</a>
+                 <a href="#reg" class="link">реєстрація</a>
             </div>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="" class="link">головна</a>
+                    <a href="#course" class="link">курси</a>
+                    <a href="#block" class="link">блог</a>
+                    <a href="#advantage" class="link">про проект</a>
+                    <a href="#reg" class="link">реєстрація</a>
+                </div>
+            <div id="menu">
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()" id="opnBtn" class="opnBtn">&#9776;</span>
+            </div>
+
         </div>
 
         <section class="header__container">
@@ -38,7 +51,7 @@
     </header>
 
     <main>
-        <section class="container advantage">
+        <section id="advantage" class="container advantage">
             <h4 class="advantage__title">ПЕРЕВАГИ</h4>
             
             <div class="gallery">
@@ -74,7 +87,7 @@
 
         </section>
 
-        <section class="container course">
+        <section id="course" class="container course">
             <h4 class="course__title">ДОСТУПНІ КУРСИ</h4>
             <p class="course__subtitle">Запишіться прямо зараз на безкоштовні курси</p>
 
@@ -174,7 +187,7 @@
 
         </section>
 
-        <section class="sertificate">
+        <section id="blog" class="sertificate">
             <img src="./img/education.webp" alt="education" class="sertificate__img">
             <div class="sertificate__content">
                 <h5 class="sertificate__title">СЕРТИФІКАТ ВІД ГАРВАРДУ</h5>
@@ -412,7 +425,7 @@
 
         </section>
 
-        <section class="registration">
+        <section id="reg" class="registration">
             <h4 class="registration__title">ЗАРЕЄСТРУЙСЯ ЗАРАЗ</h4>
             <p  class="registration__subtitle">Та отримай задоволення від навчання</p>
 
@@ -526,6 +539,18 @@
     </script>   
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="./js/slider.js"></script>
+
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("menu").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("menu").style.marginLeft= "0";
+        }
+    </script>
 
 </body>
 </html>
