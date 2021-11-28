@@ -43,7 +43,7 @@
         margin: 5% ;
 
         font-size: 25px;
-        line-height: 34px;
+
         color: #3e3e3e;
         font-weight: 400;
         font-family: "Open Sans";
@@ -52,7 +52,6 @@
 
     &__card-subtitle , &__card-href{
         font-size: 17px;
-        line-height: 30px;
         color: #3e3e3e;
         font-weight: 400;
         font-family: "Lato";
@@ -68,17 +67,17 @@
         background-color: #ba271f;
         border: 1px solid #ffffff;
         padding: 4%;
-        width: 66%;
+        width: 67%;
 
         font-size: 10px;
         color: #ffffff;
         font-weight: 400;
         font-family: "Open Sans";
-        margin: 5% 0% 3% 34%;
+        margin: 5% 0% 3% 33%;
     }
 
     &__card-img {
-        width: 46%;
+        width: 42%;
         margin: 4%;
     }
 }

@@ -29,7 +29,6 @@
 .link {
   color: #ffffff;
   text-decoration: none;
-  height: 30%;
   margin-top: 3%;
   font-size: 25px;
   font-weight: 300;
@@ -147,16 +146,13 @@
   margin-bottom: 5%;
 }
 .gallery__img {
-  width: 12%;
-  margin-left: 44%;
-  margin-right: 44%;
   position: relative;
 }
 .gallery__title {
   width: 100%;
   text-align: center;
   font-size: 30px;
-  line-height: 19px;
+  line-height: 29px;
   color: #3e3e3e;
   font-weight: 400;
   font-family: "Open Sans";
@@ -226,7 +222,6 @@
 .block-course__card-title {
   margin: 5%;
   font-size: 25px;
-  line-height: 34px;
   color: #3e3e3e;
   font-weight: 400;
   font-family: "Open Sans";
@@ -234,7 +229,6 @@
 }
 .block-course__card-subtitle, .block-course__card-href {
   font-size: 17px;
-  line-height: 30px;
   color: #3e3e3e;
   font-weight: 400;
   font-family: "Lato";
@@ -248,15 +242,15 @@
   background-color: #ba271f;
   border: 1px solid #ffffff;
   padding: 4%;
-  width: 66%;
+  width: 67%;
   font-size: 10px;
   color: #ffffff;
   font-weight: 400;
   font-family: "Open Sans";
-  margin: 5% 0% 3% 34%;
+  margin: 5% 0% 3% 33%;
 }
 .block-course__card-img {
-  width: 46%;
+  width: 42%;
   margin: 4%;
 }
 
@@ -292,6 +286,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .slide__img {
   margin: 0% 10%;
@@ -551,4 +551,318 @@
 
 span {
   color: #b9271f;
+}
+
+@media screen and (max-width: 1440px) {
+  .block-course__card-title {
+    font-size: 17px;
+    line-height: 21px;
+  }
+  .block-course__card-subtitle {
+    font-size: 12px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .nav__logo {
+    width: 45%;
+  }
+  .nav__link {
+    width: 65%;
+  }
+
+  .link {
+    font-size: 16px;
+  }
+
+  .form {
+    width: 40%;
+    margin-left: 50%;
+    margin-right: 10%;
+  }
+
+  .block-course__card {
+    width: 100%;
+  }
+  .block-course__card-title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .block-course__card-subtitle {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .block-course__card-img {
+    width: 30%;
+    margin: 2% 10%;
+  }
+
+  .slick-prev, .slick-next {
+    width: 37px;
+    height: 37px;
+  }
+
+  .arrow {
+    width: 13px;
+    height: 13px;
+    margin-left: 9px;
+  }
+
+  .arrow-right {
+    margin-left: 3px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .nav__logo {
+    width: 40%;
+    font-size: 31px;
+  }
+  .nav__link {
+    width: 60%;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+
+  .header__title {
+    font-size: 31px;
+    line-height: 0px;
+  }
+  .header__subtitle {
+    font-size: 16px;
+    line-height: 60px;
+  }
+
+  .form {
+    width: 50%;
+    margin-left: 40%;
+    margin-right: 10%;
+  }
+
+  .advantage__title {
+    font-size: 35px;
+  }
+
+  .course__title {
+    font-size: 35px;
+  }
+  .course__subtitle {
+    font-size: 22px;
+    margin-top: -4%;
+  }
+
+  .gallery__title {
+    font-size: 18px;
+  }
+  .gallery__card {
+    width: 100%;
+  }
+  .gallery__logo {
+    display: none;
+  }
+
+  .block-course__card-title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .block-course__card-subtitle {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .block-course__card-img {
+    width: 40%;
+    margin: 5%;
+  }
+
+  .partners__title {
+    font-size: 35px;
+  }
+
+  .slick-prev, .slick-next {
+    width: 20px;
+    height: 20px;
+  }
+
+  .arrow {
+    width: 8px;
+    height: 8px;
+    margin-left: 1px;
+  }
+
+  .arrow-right {
+    margin-left: -3px;
+  }
+
+  .slide__title {
+    line-height: 6px;
+    font-size: 17px;
+  }
+
+  .sertificate__title {
+    font-size: 25px;
+    margin-bottom: -3%;
+  }
+  .sertificate__subtitle {
+    width: 100%;
+  }
+
+  .developers__title {
+    font-size: 35px;
+  }
+  .developers__gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .developers__card {
+    width: 100%;
+  }
+  .developers__card-img {
+    width: 50%;
+    margin: 0% 25%;
+  }
+  .developers__card-title {
+    margin-top: 5%;
+  }
+  .developers__social {
+    margin: 0% 15% 7%;
+  }
+
+  .registration__title {
+    font-size: 35px;
+  }
+  .registration__subtitle {
+    font-size: 22px;
+  }
+  .registration__form {
+    width: 50%;
+    margin: 1% 25%;
+  }
+  .registration__form-input {
+    width: 86%;
+    padding: 1% 6%;
+  }
+  .registration__form-button {
+    margin-bottom: 10%;
+  }
+
+  .footer {
+    font-size: 17px;
+  }
+
+  svg {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .nav {
+    display: none;
+  }
+
+  .header {
+    padding: 1%;
+  }
+  .header__title {
+    font-size: 31px;
+    line-height: 40px;
+  }
+
+  .form {
+    width: 100%;
+    margin: 0%;
+  }
+
+  .block-course__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .block-course__card-content {
+    width: 100%;
+  }
+  .block-course__card-title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .block-course__card-subtitle {
+    font-size: 17px;
+    line-height: 30px;
+  }
+  .block-course__card-img {
+    width: 100%;
+    margin: 0%;
+  }
+
+  .slide__title {
+    line-height: 6px;
+    font-size: 10px;
+  }
+
+  .sertificate {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .sertificate__img {
+    width: 100%;
+  }
+  .sertificate__content {
+    width: 100%;
+    padding: 0%;
+    padding-bottom: 3%;
+  }
+  .sertificate__title {
+    width: 96%;
+    margin: 2% 2%;
+    font-size: 25px;
+    margin-bottom: -3%;
+  }
+  .sertificate__subtitle {
+    width: 96%;
+    margin: 2% 2%;
+  }
+  .sertificate__button {
+    width: 96%;
+    margin: 2% 2%;
+  }
+
+  .registration__title {
+    font-size: 25px;
+  }
+  .registration__subtitle {
+    font-size: 15px;
+  }
+  .registration__form {
+    width: 70%;
+    margin: 0% 15%;
+  }
+  .registration__form-input {
+    width: 86%;
+    padding: 1% 6%;
+  }
+  .registration__form-button {
+    width: 100%;
+    margin: 0%;
+    margin-bottom: 10%;
+  }
+
+  .social {
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
 }

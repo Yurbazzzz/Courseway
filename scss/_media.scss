@@ -1,0 +1,392 @@
+@media screen and (max-width: 1440px) {
+    .block-course {
+        &__card-title {
+            font-size: 17px;
+            line-height: 21px;
+        }
+
+        &__card-subtitle {
+            font-size: 12px;
+            line-height: 25px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .nav {
+
+        &__logo {
+            width: 50%;
+        }
+
+        &__link {
+            width: 50%;
+        }
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .form {
+        width: 40%;
+        margin-left: 50%;
+        margin-right: 10%;
+    }
+
+    .block-course {
+
+        &__card {
+            width: 100%;
+        }
+
+        &__card-title {
+            font-size: 22px;
+            line-height: 26px;
+        }
+
+        &__card-subtitle {
+            font-size: 17px;
+            line-height: 30px;
+        }
+
+        &__card-img {
+            width: 30%;
+            margin: 2% 10%;
+        }
+    }
+
+    .slick-prev, .slick-next {
+        width: 37px;
+        height: 37px;
+    }
+
+    .arrow {
+        width: 13px;
+        height: 13px;
+        margin-left: 9px;
+    }
+
+    .arrow-right {
+        margin-left: 3px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .nav {
+
+        &__logo {
+            width: 40%;
+            font-size: 31px;
+        }
+
+        &__link {
+            width: 60%;
+        }
+
+
+    }
+    .link {
+        font-size: 14px;
+    }
+
+    .header {
+
+        &__title {
+            font-size: 31px;
+            line-height: 0px;
+        }
+
+        &__subtitle {
+            font-size: 16px;
+            line-height: 60px;
+        }
+    }
+
+    .form {
+        width: 50%;
+        margin-left: 40%;
+        margin-right: 10%;
+    }
+
+    .advantage {
+
+        &__title {
+            font-size: 35px;
+        }
+    }
+
+    .course {
+
+        &__title {
+            font-size: 35px;
+        }
+
+        &__subtitle {
+            font-size: 22px;
+            margin-top: -4%;
+
+        }
+    }
+
+    .gallery {
+
+        &__title {
+            font-size: 18px;
+        }
+
+        &__card {
+            width: 100%;
+        }
+
+        &__logo {
+           display: none;
+        }
+    }
+
+    .block-course {
+        &__card-title {
+            font-size: 22px;
+            line-height: 26px;
+        }
+
+        &__card-subtitle {
+            font-size: 17px;
+            line-height: 30px;
+        }
+
+        &__card-img {
+            width: 40%;
+            margin: 5%;
+        }
+    }
+
+    .partners__title {
+        font-size: 35px;
+    }
+
+    .slick-prev, .slick-next {
+        width: 20px;
+        height: 20px;
+    }
+
+    .arrow {
+        width: 8px;
+        height: 8px;
+        margin-left: 1px;
+    }
+
+    .arrow-right {
+        margin-left: -3px;
+    }
+
+    .slide__title {
+        line-height: 6px;
+        font-size: 17px;
+
+    }
+
+    .sertificate {
+
+        &__title {
+            font-size: 25px;
+            margin-bottom: -3%;
+        }
+
+        &__subtitle {
+            width: 100%;
+        }
+    }
+
+    .developers {
+
+        &__title {
+            font-size: 35px;
+        }
+
+        &__gallery {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__card {
+            width: 100%;
+        }
+
+        &__card-img {
+            width: 50%;
+            margin: 0% 25%;
+        }
+
+        &__card-title {
+            margin-top: 5%;
+        }
+
+        &__social {
+            margin: 0% 15% 7%;
+        }
+
+    }
+
+    .registration {
+
+        &__title {
+            font-size: 35px;
+        }
+
+        &__subtitle {
+            font-size: 22px;
+        }
+
+        &__form {
+            width: 50%;
+            margin: 1% 25%;
+        }
+
+        &__form-input {
+            width: 86%;
+            padding: 1% 6%;
+        }
+
+        &__form-button {
+            margin-bottom: 10%;
+        }
+    }
+
+    .footer {
+        font-size: 17px;
+    }
+
+    svg {
+        width: 35px;
+        height: 35px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .nav {
+        display: none;
+
+    }
+
+    .header {
+        padding: 1%;
+
+        &__title {
+            font-size: 31px;
+            line-height: 40px;  
+        }
+    }
+
+    .form {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .block-course {
+
+        &__card {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+
+        &__card-content {
+            width: 100%;
+        }
+
+        &__card-title {
+            font-size: 22px;
+            line-height: 26px;
+        }
+
+        &__card-subtitle {
+            font-size: 17px;
+            line-height: 30px;
+        }
+
+        &__card-img {
+            width: 100%;
+            margin: 0%;
+        }
+    }
+
+    .slide__title {
+        line-height: 6px;
+        font-size: 10px;
+
+    }
+
+    .sertificate {
+        display: flex;
+        flex-direction: column;
+
+        &__img {
+            width: 100%;
+        }
+
+        &__content {
+            width: 100%;
+            padding: 0%;
+            padding-bottom: 3%;
+        }
+
+        &__title {
+            width: 96%;
+            margin: 2% 2%;
+            font-size: 25px;
+            margin-bottom: -3%;
+        }
+
+        &__subtitle {
+            width: 96%;
+            margin: 2% 2%;
+        }
+
+        &__button {
+            width: 96%;
+            margin: 2% 2%;
+        }
+    }
+
+    .registration {
+
+        &__title {
+            font-size: 25px;
+        }
+
+        &__subtitle {
+            font-size: 15px;
+        }
+
+        &__form {
+            width: 70%;
+            margin: 0% 15%;
+
+        }
+
+        &__form-input {
+            width: 86%;
+            padding: 1% 6%;
+        }
+
+        &__form-button {
+            width: 100%;
+            margin: 0%;
+            margin-bottom: 10%;
+        }
+    }
+
+    .social {
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}
